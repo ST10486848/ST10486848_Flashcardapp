@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screenshot_2025_05_21_193548"
+    android:orientation="vertical"
+    tools:context=".Flashcardscreen">
+
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="530dp" />
+
+    <Button
+        android:id="@+id/FalseButton"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:text="False"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <Button
+        android:id="@+id/TrueButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="True"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="419dp" />
+
+    <TextView
+        android:id="@+id/QuestionsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:text="QUESTIONS:"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/FeedbackTextView"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:text="FEEDBACK :"
+        android:textColor="#F44336"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/TerminateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terminate" />
+</LinearLayout>
