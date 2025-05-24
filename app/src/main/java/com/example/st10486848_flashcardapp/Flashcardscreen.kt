@@ -3,6 +3,7 @@ package com.example.st10486848_flashcardapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Checkable
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -89,9 +90,10 @@ class Flashcardscreen : AppCompatActivity() {
                 val intent = Intent(this,Scorescreen::class.java)
                 // start the activity
                 startActivity(intent)
+                //Adding code to pass the questions and answers in the last screen
+                intent.putExtra("Questions",QuestionsTextView.text.toString())
+                intent.putExtra("Answers",FeedbackTextView.text.toString())
             }
-
-
             ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)

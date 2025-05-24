@@ -5,22 +5,22 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/screenshot_2025_05_21_193548"
+    android:background="@drawable/screenshot_2025_05_22_141901"
     android:orientation="vertical"
     tools:context=".Scorescreen">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/ScoreTextView"
         android:layout_width="215dp"
         android:layout_height="89dp"
-        android:text="Review"
+        android:text="Score"
         android:textColor="#F44336"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="53dp" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/TextViewFeedback"
         android:layout_width="194dp"
         android:layout_height="90dp"
         android:text="Feedback"
@@ -29,20 +29,36 @@
         tools:layout_editor_absoluteX="25dp"
         tools:layout_editor_absoluteY="150dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
+    <TextView
+        android:id="@+id/ReviewTextView"
+        android:layout_width="370dp"
+        android:layout_height="264dp"
         android:text="Review"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="284dp" />
+        android:textColor="#FF9800"
+        android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="139dp"
+        android:id="@+id/ScoreButton"
+        android:layout_width="239dp"
         android:layout_height="wrap_content"
-        android:text="Exit"
-        tools:layout_editor_absoluteX="38dp"
-        tools:layout_editor_absoluteY="370dp" />
+        android:text="Score" />
+
+    <Button
+        android:id="@+id/FeedbackButton"
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:text="Feedback" />
+
+    <Button
+        android:id="@+id/ReviewButton"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="Review" />
+
+    <Button
+        android:id="@+id/ExitButton"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
 
 </LinearLayout>

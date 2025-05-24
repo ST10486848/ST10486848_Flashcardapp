@@ -13,7 +13,7 @@ import java.util.Arrays
 class MainActivity : AppCompatActivity() {
     val Welcome = arrayOf<String>(
         "Welcome to hystory quiz",
-        "click on start to begin the quiz", "you will be asked 5 questions about hystory",
+        "click on start to begin the quiz", "you will be asked 5 questions about history",
         "each questions is worth 1 point",
     )
     override fun onCreate(savedInstanceState: Bundle?) {

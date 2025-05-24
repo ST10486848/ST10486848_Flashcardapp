@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/screenshot_2025_05_21_193548"
+    android:background="@drawable/screenshot_2025_05_22_141901"
     android:orientation="vertical"
     tools:context=".Flashcardscreen">
 
@@ -43,8 +43,8 @@
 
     <TextView
         android:id="@+id/FeedbackTextView"
-        android:layout_width="match_parent"
-        android:layout_height="101dp"
+        android:layout_width="376dp"
+        android:layout_height="345dp"
         android:text="FEEDBACK :"
         android:textColor="#F44336"
         android:textSize="24sp" />
