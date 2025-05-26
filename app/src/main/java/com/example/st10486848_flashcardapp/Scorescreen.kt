@@ -21,7 +21,6 @@ class Scorescreen : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_scorescreen)
         // Declarations
-
         val ScoreTextView = findViewById<TextView>(R.id.ScoreTextView)
         val TextViewFeedback = findViewById<TextView>(R.id.TextViewFeedback)
         val ReviewTextView = findViewById<TextView>(R.id.ReviewTextView)
@@ -30,12 +29,11 @@ class Scorescreen : AppCompatActivity() {
         val ReviewButton = findViewById<Button>(R.id.ReviewButton)
         val ExitButton = findViewById<Button>(R.id.ExitButton)
         //Adding the code to displays the score , feedback and all the questions with answers
-        ReviewButton.setOnClickListener{
+        val score = 0
+
+        ScoreButton.setOnClickListener{
+
         }
-
-
-
-
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
